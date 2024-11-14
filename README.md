@@ -3,7 +3,7 @@ Skillsoft - Data Society 4-day Intermediate/Advanced Power BI Bootcamp.
 
 ***Below is the first lab exercise: Data Import & Transformation***
 
-**1) Import Lab data files: Using import from file**
+# 1) Import Lab data files: Using import from file
 
 Import Lab files using the text/csv connector and the Folder connector for the files in the Country files folder you will need to use the folder connector (Fact table/ Look-up table) 
 
@@ -17,18 +17,13 @@ Select combined and load to import all csv files from the folder into power quer
   ![image](https://github.com/user-attachments/assets/17bf9c73-4c5a-4de0-be9d-e212ac90a48c)
 
 **Import the following csv files. (Dimension table/ Transaction table)**
+
 a.Product-Category
-
 b.Product Sub-Category
-
 c.Product
-
 d.Sale Region
-
 e.Sales By Country Files
-
 f.Salesperson
-
 g.Power Cycle Sales Target	 
 
   ![image](https://github.com/user-attachments/assets/ef074b92-ec1b-4c0b-9824-01020d7c96d1)
@@ -47,7 +42,7 @@ Remove the Source name column as it is not a required column for any analysis
 
 
 
-**2) Creating a Reseller Dimension table**
+# 2) Creating a Reseller Dimension table
 
 Create The Reseller table by selecting the Sales by Country table then right-click and select duplicate	 
 
@@ -70,7 +65,7 @@ From the Home Tab select Remove Rows and Remove Duplicated
   ![image](https://github.com/user-attachments/assets/c7acfdeb-0ff9-494a-b295-de584da0e724)
 
 
-**3) Create a Reseller ID Index column**
+# 3) Create a Reseller ID Index column
 
 From the Add Column tab select Index Column with the Index starting from 1
 Right-click on the new Index column and Rename the Index Column to ResellerID
@@ -79,7 +74,7 @@ Right-click on the new Index column and Rename the Index Column to ResellerID
 
 
 	 
-**4) Merging Tables**
+# 4) Merging Tables
 
 From the Home tab select Merge Queries from the dropdown
 
@@ -100,7 +95,7 @@ Select only the ResellerID and uncheck the “use original column name as prefix
   ![image](https://github.com/user-attachments/assets/d8c93917-de41-4548-9938-19d64664591a)
 
 
-5) Column Splitting
+# 5) Column Splitting
 
 Going back to the Reseller table you will need to split out the State name from the city so that they are separate columns, respectively.
 
